@@ -5,7 +5,7 @@
 @theme {
     --font-josefin: "Josefin Sans", sans-serif; 
 
-    /* --animate-fade : fadeIn .5s forwards;
+    --animate-fade : fadeIn .5s forwards;
 
     @keyframes fadeIn {
         0%{
@@ -14,5 +14,9 @@
         100%{
             opacity: 1;
         }
-    } */
+    }
+}
+
+.active{
+    @apply opacity-50;
 }
